@@ -1,0 +1,137 @@
+/*----------------------------------
+---------------Variables------------
+------------------------------------*/
+/*----------------------------------
+-----------------Fonts--------------
+------------------------------------*/
+/*----------------------------------
+----------------General--------------
+------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+#block-region-side-post {
+  border: solid 3px #A9AFF0 !important;
+  border-radius: 8px;
+  padding-top: 10px;
+}
+#block-region-side-post .block_navigation .header {
+  border-top: 0px;
+  border-bottom: 3px solid #A9AFF0;
+}
+
+/*----------------------------------
+----------------Buttons--------------
+------------------------------------*/
+#above-header, #main-navbar {
+  background-color: #2C3DD2 !important;
+  color: white !important;
+}
+
+#main-navbar {
+  background-color: #2C3DD2 !important;
+  color: white !important;
+  border-bottom: 3px solid #0A24A5 !important;
+}
+#main-navbar a {
+  color: white !important;
+}
+#main-navbar a :hover {
+  background-color: #0A24A5 !important;
+}
+#main-navbar .dropdown-menu {
+  color: white !important;
+}
+#main-navbar .dropdown-menu a {
+  color: #2C3DD2 !important;
+}
+#main-navbar #zoominicon {
+  color: white !important;
+}
+
+#page-second-header {
+  padding: 9px !important;
+}
+#page-second-header #page-navbar {
+  margin-top: -10px !important;
+}
+
+#adaptable-page-header-wrapper {
+  background-color: #E8DBFF;
+  background: url("../resources/images/img-header-bg.png") no-repeat right bottom, url("../resources/images/bg-texture.png") no-repeat left bottom #E8DBFF;
+  background-size: contain;
+}
+#adaptable-page-header-wrapper #sitetitle {
+  height: 300px;
+}
+#adaptable-page-header-wrapper #sitetitle::before {
+  content: " ";
+  position: inherit;
+  width: 600px;
+  height: 100px;
+  background: url("../resources/images/icon-misiontic.svg") no-repeat;
+  display: inline-block;
+}
+#adaptable-page-header-wrapper #coursetitle, #adaptable-page-header-wrapper #sitetitle #coursetitle {
+  color: #2C3DD2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold !important;
+}
+#adaptable-page-header-wrapper .simplesearchform .btn {
+  background: #2C3DD2;
+  border-radius: 4px;
+  color: white;
+}
+#adaptable-page-header-wrapper .headersearch .form-inline input.form-control[type=text], #adaptable-page-header-wrapper .navbarsearchsocial .form-inline input.form-control[type=text] {
+  border-radius: 4px;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  transition: all 0.35s ease;
+  margin-right: 6px;
+}
+#adaptable-page-header-wrapper .btn.btn-close {
+  margin-right: 6px;
+  margin-top: 1px;
+}
+
+#adaptable-page-header-wrapper #main-navbar ul.navbar-nav > li > a.nav-link:hover, #adaptable-page-header-wrapper #main-navbar li div.nav-link:hover, #adaptable-page-header-wrapper #main-navbar li #editingbutton input[type=submit]:hover {
+  background-color: #0A24A5 !important;
+}
+
+#page-footer {
+  color: white;
+  background: url("../resources/images/bg-texture-dark.png") no-repeat left center #2C3DD2;
+  height: 200px;
+  background-size: contain;
+}
+#page-footer .info {
+  margin-top: 0px;
+  display: none;
+}
+#page-footer ::before {
+  content: " ";
+  position: inherit;
+  width: 550px;
+  height: 100px;
+  background: url("../resources/images/icon-misiontic-bw.svg") no-repeat;
+  display: inline-block;
+  margin-left: 6vw;
+  margin-top: 50px;
+}
+#page-footer ::after {
+  content: " ";
+  position: absolute;
+  width: 350px;
+  height: 200px;
+  background: url("../resources/images/info-mintic.svg") no-repeat;
+  display: inline-block;
+  right: 5vw;
+}
+#page-footer .container {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

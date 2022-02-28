@@ -1,0 +1,79 @@
+#above-header, #main-navbar{
+    background-color: $blue-site!important;
+    color: white!important;
+}
+#main-navbar{
+    background-color: $blue-site!important;
+    color: white!important;
+    border-bottom: 3px solid $blue-semidark!important;
+    a{
+        color: white!important;
+        :hover{
+            background-color: $blue-semidark!important;
+        }
+    }
+    .dropdown-menu{
+        color: white!important;
+        a{
+            color: $blue-site!important;
+        }
+    }
+    #zoominicon{
+        color: white!important;
+    }
+    
+}
+#page-second-header{
+    padding:9px!important;
+    #page-navbar{
+        margin-top: -10px!important;
+    }
+}
+#adaptable-page-header-wrapper{
+    background-color: $magenta-light;
+    background: url("#{$images-path}img-header-bg.png")no-repeat right bottom, url("#{$images-path}bg-texture.png")no-repeat left bottom $magenta-light;
+    background-size: contain;
+    #sitetitle{
+        // background-color: $magenta-light;
+        height: 300px;
+        &::before{
+            content: " ";
+            position: inherit;
+            width: 600px;
+            height: 100px;
+            background: url("#{$images-path}icon-misiontic.svg") no-repeat;
+            display: inline-block;
+        }
+    }
+    #coursetitle, #sitetitle #coursetitle{
+        color: $blue-site;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold!important;
+    }
+    .simplesearchform{
+        .btn{
+            background:  $blue-site;
+            border-radius: 4px;
+            color: white;
+        }
+    }
+    .headersearch .form-inline input.form-control[type=text], .navbarsearchsocial .form-inline input.form-control[type=text]{
+        border-radius: 4px;
+        color: white;
+        border: none;
+        padding: 0.5em 1em;
+        font-weight: bold;
+        // font-size: 1.25em;
+        transition: all 0.35s ease;
+        margin-right: 6px;
+    }
+    .btn.btn-close{
+        margin-right: 6px;
+        margin-top: 1px;
+    }
+}
+
+
+#adaptable-page-header-wrapper #main-navbar ul.navbar-nav>li>a.nav-link:hover, #adaptable-page-header-wrapper #main-navbar li div.nav-link:hover, #adaptable-page-header-wrapper #main-navbar li #editingbutton input[type="submit"]:hover{
+    background-color: $blue-semidark!important;
+}

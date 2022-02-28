@@ -1,0 +1,17 @@
+/*----------------------------------
+----------------General--------------
+------------------------------------*/
+*{
+    box-sizing: border-box;
+}
+#block-region-side-post{
+    border: solid 3px $blue-light!important;
+    border-radius: 8px;
+    padding-top:10px;
+    .block_navigation{
+        .header{
+            border-top: 0px;
+            border-bottom: 3px solid $blue-light;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+#page-footer{
+    // background-color: $blue-site;
+    color: white;
+    background: url("#{$images-path}bg-texture-dark.png")no-repeat left center $blue-site;
+    height: 200px;
+    background-size: contain;
+    .info{
+        margin-top: 0px;
+        display: none;
+    }
+    ::before{
+        content: " ";
+        position: inherit;
+        width: 550px;
+        height: 100px;
+        background: url("#{$images-path}icon-misiontic-bw.svg") no-repeat;
+        display: inline-block;
+        margin-left: 6vw;
+        margin-top: 50px;
+    }
+    ::after{
+        content: " ";
+        position: absolute;
+        width: 350px;
+        height: 200px;
+        background: url("#{$images-path}info-mintic.svg") no-repeat;
+        display: inline-block;
+        // background-color: red;
+        right: 5vw;
+    }
+    .container{
+        display: none;
+    }
+}
