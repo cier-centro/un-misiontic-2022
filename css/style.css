@@ -4,6 +4,12 @@
 /*----------------------------------
 -----------------Fonts--------------
 ------------------------------------*/
+@font-face {
+  font-family: "titilliumWeb-SemiBold.ttf";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../resources/fonts/TitilliumWeb-SemiBold.ttf");
+}
 /*----------------------------------
 ----------------General--------------
 ------------------------------------*/
@@ -25,7 +31,7 @@
 ----------------Buttons--------------
 ------------------------------------*/
 #above-header, #main-navbar {
-  background-color: #2C3DD2 !important;
+  background-color: #FF1979 !important;
   color: white !important;
 }
 
@@ -59,7 +65,7 @@
 
 #adaptable-page-header-wrapper {
   background-color: #E8DBFF;
-  background: url("../resources/images/img-header-bg.png") no-repeat right bottom, url("../resources/images/bg-texture.png") no-repeat left bottom #E8DBFF;
+  background: url("../resources/images/img-header-bg.png") no-repeat center bottom #E8DBFF;
   background-size: contain;
 }
 #adaptable-page-header-wrapper #sitetitle {
@@ -74,8 +80,8 @@
   display: inline-block;
 }
 #adaptable-page-header-wrapper #coursetitle, #adaptable-page-header-wrapper #sitetitle #coursetitle {
-  color: #2C3DD2;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #4A00FF;
+  font-family: "titilliumWeb-SemiBold.ttf";
   font-weight: bold !important;
 }
 #adaptable-page-header-wrapper .simplesearchform .btn {
@@ -99,6 +105,17 @@
 
 #adaptable-page-header-wrapper #main-navbar ul.navbar-nav > li > a.nav-link:hover, #adaptable-page-header-wrapper #main-navbar li div.nav-link:hover, #adaptable-page-header-wrapper #main-navbar li #editingbutton input[type=submit]:hover {
   background-color: #0A24A5 !important;
+}
+
+#page-header > .row::after {
+  content: " ";
+  position: absolute;
+  width: 445px;
+  height: 100px;
+  background: url("../resources/images/icon-unal.svg") no-repeat;
+  display: inline-block;
+  right: 0px;
+  margin-bottom: 50px;
 }
 
 #page-footer {

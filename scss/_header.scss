@@ -1,5 +1,5 @@
 #above-header, #main-navbar{
-    background-color: $blue-site!important;
+    background-color: $magenta!important;
     color: white!important;
 }
 #main-navbar{
@@ -21,7 +21,6 @@
     #zoominicon{
         color: white!important;
     }
-    
 }
 #page-second-header{
     padding:9px!important;
@@ -31,10 +30,10 @@
 }
 #adaptable-page-header-wrapper{
     background-color: $magenta-light;
-    background: url("#{$images-path}img-header-bg.png")no-repeat right bottom, url("#{$images-path}bg-texture.png")no-repeat left bottom $magenta-light;
+    // background: url("#{$images-path}img-header-bg.png")no-repeat right bottom, url("#{$images-path}bg-texture.png")no-repeat left bottom $magenta-light;
+    background: url("#{$images-path}img-header-bg.png")no-repeat center bottom $magenta-light;
     background-size: contain;
     #sitetitle{
-        // background-color: $magenta-light;
         height: 300px;
         &::before{
             content: " ";
@@ -44,10 +43,12 @@
             background: url("#{$images-path}icon-misiontic.svg") no-repeat;
             display: inline-block;
         }
+        
     }
     #coursetitle, #sitetitle #coursetitle{
-        color: $blue-site;
-        font-family: Arial, Helvetica, sans-serif;
+        color: $magenta-blue;
+        // font-family: Arial, Helvetica, sans-serif;
+        font-family: 'titilliumWeb-SemiBold.ttf';
         font-weight: bold!important;
     }
     .simplesearchform{
@@ -72,8 +73,18 @@
         margin-top: 1px;
     }
 }
-
-
 #adaptable-page-header-wrapper #main-navbar ul.navbar-nav>li>a.nav-link:hover, #adaptable-page-header-wrapper #main-navbar li div.nav-link:hover, #adaptable-page-header-wrapper #main-navbar li #editingbutton input[type="submit"]:hover{
     background-color: $blue-semidark!important;
+}
+#page-header>.row{
+    &::after{
+        content: " ";
+        position: absolute;
+        width: 445px;
+        height: 100px;
+        background: url("#{$images-path}icon-unal.svg") no-repeat;
+        display: inline-block;
+        right: 0px;
+        margin-bottom: 50px;
+    }
 }
