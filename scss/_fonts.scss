@@ -92,9 +92,11 @@
 //     src: url("#{$fonts-path}museosans-700-condensed.ttf");
 // }
 
-@font-face {
-    font-family: 'titilliumWeb-SemiBold.ttf';
-    font-style: normal;
-    font-weight: 900;
-    src: url("#{$fonts-path}TitilliumWeb-SemiBold.ttf");
-}
+// @font-face {
+//     font-family: 'titilliumWeb-SemiBold.ttf';
+//     font-style: normal;
+//     font-weight: 900;
+//     src: url("#{$fonts-path}TitilliumWeb-SemiBold.ttf");
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
